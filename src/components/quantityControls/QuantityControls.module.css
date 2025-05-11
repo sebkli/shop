@@ -1,0 +1,12 @@
+.quantityControls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.quantity {
+  color: #f5deb3;
+  font-weight: 500;
+  min-width: 2rem;
+  text-align: center;
+}

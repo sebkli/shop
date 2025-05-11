@@ -1,0 +1,32 @@
+.cartItem {
+  background-color: #1a1f2e;
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  border: 1px solid #2d3446;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.name {
+  color: #f5deb3;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.price {
+  color: #f5deb3;
+  font-size: 1rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

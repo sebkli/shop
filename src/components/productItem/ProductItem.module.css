@@ -1,0 +1,33 @@
+.item {
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background-color: #0c02764e;
+  box-shadow: 0 2px 4px #003ea370;
+  transition: transform 0.2s ease-in-out;
+  list-style: none;
+}
+
+.item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px #f5deb3;
+}
+
+.name {
+  font-size: 1.25rem;
+  color: #f5deb3;
+  margin: 0 0 1rem 0;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 1.1rem;
+  color: #f5deb3;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.price span {
+  margin-left: 0.1rem;
+  font-weight: 600;
+}
